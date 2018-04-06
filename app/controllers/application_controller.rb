@@ -24,6 +24,6 @@ class ApplicationController < Sinatra::Base
   end
 
   get '/recipes/:id/edit' do
-
+    puts params
   end
 end
