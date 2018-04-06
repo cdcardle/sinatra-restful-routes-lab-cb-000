@@ -6,7 +6,7 @@
 <body align="center">
   <h1>Edit Your Recipe</h1>
   <form method=post action='/recipes'>
-    <input type="hidden" name="_method" value="patch">
+    <input id="hidden" name="_method" value="patch">
     <h3><input type="text" name="name" value="<%= @recipe.name %>"></h3>
     <h3><input type="text" name="ingredients" value="<%= @recipe.ingredients %>"></h3>
     <h3><input type="text" name="cook_time" value="<%= @recipe.cook_time %>"></h3>
