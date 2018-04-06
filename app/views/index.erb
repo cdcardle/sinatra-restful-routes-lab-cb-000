@@ -4,6 +4,11 @@
   <title>Recipes!</title>
 </head>
 <body>
-  <%= @recipes %>
+  <h1>My Recipes</h1>
+  <% @recipes.each do |recipe| %>
+  <h2><%= recipe.name %></h2>
+  <h3><%= recipe.cook_time %></h3>
+  <p><%= recipe.ingredients %></p>
+  <% end %>
 </body>
 </html>
