@@ -8,7 +8,7 @@
   <h3>Cook time: <%= @recipe.cook_time %></h3>
   <p>Ingredients: <%= @recipe.ingredients %></p>
 
-  <a href='/recipes/edit'>Edit This Recipe</a><br>
+  <a href='/recipes/<%= @recipe.id %>/edit'>Edit This Recipe</a><br>
   <a href='/recipes'>Recipes Home Page<a>
 </body>
 </html>
