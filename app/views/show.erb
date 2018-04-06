@@ -12,7 +12,7 @@
   <a href='/recipes/<%= @recipe.id %>/edit'>Edit This Recipe</a><br>
   <form action="/recipes/<%= @recipe.id %>/delete" method="post">
     <input id="hidden" type="hidden" name="_method" value="delete">
-    <input type="submit" value="Delete This Recipe">
+    <input type="submit" id="delete" value="Delete This Recipe">
   </form>
 </body>
 </html>
