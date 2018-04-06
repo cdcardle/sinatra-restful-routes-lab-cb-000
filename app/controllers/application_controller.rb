@@ -19,7 +19,7 @@ class ApplicationController < Sinatra::Base
   end
 
   get '/recipes/:id' do
-
+    erb :show
   end
 
   get '/recipes/:id/edit' do
